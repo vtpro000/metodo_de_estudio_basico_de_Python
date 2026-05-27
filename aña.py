@@ -9,10 +9,10 @@ def multiplicar(a, b):
     return a * b
 
 def dividir(a, b):
-    if b == 0:
-        return "Error: División por cero"
-    return a / b
+    if b != 0:
+        return a / b
+    else:
+        return "Error: No se puede dividir por cero"
+    
 
-print("calculadora")
-print("1. Sumar")
-print("2. Restar")
+    hola jhola yhola
